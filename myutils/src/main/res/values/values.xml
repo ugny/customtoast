@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="works_continues">Çalışmalar devam ediyor.</string>
+
+    <color name="color_success">#4BB543</color>
+    <color name="color_error">#E64343</color>
+    <color name="color_warning">#DAAE09</color>
+    <color name="color_neutral">#434343</color>
+    <color name="color_icon_tint">#FFFFFF</color>
+
+    <dimen name="icon_size">40dp</dimen>
+</resources>
