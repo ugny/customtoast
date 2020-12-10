@@ -31,6 +31,7 @@ public class MyToast {
 
     public static final int IC_CHECK_CIRCLE = R.drawable.ic_check_circle;
     public static final int IC_ERROR = R.drawable.ic_error;
+    public static final int IC_WARNING = R.drawable.ic_warning;
     public static final int IC_INFO = R.drawable.ic_info;
     public static final int IC_MOOD = R.drawable.ic_mood;
     public static final int IC_MOOD_BAD = R.drawable.ic_mood_bad;
