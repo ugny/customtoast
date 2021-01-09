@@ -1,4 +1,4 @@
-package com.ugunay.myutils;
+package com.ugunay.customtoast;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.ugunay.myutils.test", appContext.getPackageName());
+        assertEquals("com.ugunay.customtoast.test", appContext.getPackageName());
     }
 }

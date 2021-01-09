@@ -1,4 +1,4 @@
-package com.ugunay.myutils;
+package com.ugunay.customtoast;
 
 import org.junit.Test;
 

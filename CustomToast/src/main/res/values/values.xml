@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="works_continues">Works continues.</string>
+
+    <color name="color_success">#4BB543</color>
+    <color name="color_error">#E64343</color>
+    <color name="color_warning">#DAAE09</color>
+    <color name="color_neutral">#456258</color>
+    <color name="color_icon_tint">#FFFFFF</color>
+    <color name="color_transparent">#00000000</color>
+
+    <dimen name="icon_size">50dp</dimen>
+
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>
