@@ -25,21 +25,26 @@ import java.util.TimerTask;
 public class CustomToast {
 
     // Toast background colors...
-    public static final int COLOR_SUCCESS = R.color.color_success;
-    public static final int COLOR_ERROR = R.color.color_error;
-    public static final int COLOR_WARNING = R.color.color_warning;
-    public static final int COLOR_NEUTRAL = R.color.color_neutral;
+    public static final int COLOR_SUCCESS = R.color.custom_toast_color_success;
+    public static final int COLOR_ERROR = R.color.custom_toast_color_error;
+    public static final int COLOR_WARNING = R.color.custom_toast_color_warning;
+    public static final int COLOR_INFO = R.color.custom_toast_color_info;
+    public static final int COLOR_NEUTRAL = R.color.custom_toast_color_neutral;
 
     // Toast icons...
-    public static final int IC_CHECK_CIRCLE = R.drawable.ic_check_circle;
-    public static final int IC_ERROR = R.drawable.ic_error;
-    public static final int IC_WARNING = R.drawable.ic_warning;
-    public static final int IC_INFO = R.drawable.ic_info;
-    public static final int IC_MOOD = R.drawable.ic_mood;
-    public static final int IC_MOOD_BAD = R.drawable.ic_mood_bad;
+    public static final int IC_CHECK_CIRCLE = R.drawable.ic_check_circle_for_custom_toast;
+    public static final int IC_ERROR = R.drawable.ic_error_for_custom_toast;
+    public static final int IC_WARNING = R.drawable.ic_warning_for_custom_toast;
+    public static final int IC_INFO = R.drawable.ic_info_for_custom_toast;
+    public static final int IC_MOOD = R.drawable.ic_mood_for_custom_toast;
+    public static final int IC_MOOD_BAD = R.drawable.ic_mood_bad_for_custom_toast;
+
+    // Extra short duration: 1000 milliseconds.
+    public static final int LENGTH_EX_SHORT = 1000;
 
     // Short duration: 2000 milliseconds.
     public static final int LENGTH_SHORT = 2000;
+
     // Long duration: 3000 milliseconds.
     public static final int LENGTH_LONG = 3000;
 
@@ -106,8 +111,8 @@ public class CustomToast {
             dialog.setContentView(crdToast);
             Window window = dialog.getWindow();
             if (window != null) {
-                window.setBackgroundDrawableResource(R.color.color_transparent);
-                window.getAttributes().windowAnimations = R.style.animation;
+                window.setBackgroundDrawableResource(R.color.custom_toast_color_transparent);
+                window.getAttributes().windowAnimations = R.style.custom_toast_animation;
             }
             dialog.show();
 
@@ -149,7 +154,7 @@ public class CustomToast {
      * @param context context.
      */
     public static void worksContinues(Context context) {
-        makeText(context, context.getString(R.string.works_continues), LENGTH_SHORT, IC_MOOD, COLOR_SUCCESS);
+        makeText(context, context.getString(R.string.works_continues), LENGTH_EX_SHORT, IC_MOOD, COLOR_SUCCESS);
     }
 
 }
