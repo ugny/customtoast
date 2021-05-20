@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="works_continues">Works continues</string>
-
     <color name="custom_toast_color_success">#4BB543</color>
     <color name="custom_toast_color_error">#E64343</color>
     <color name="custom_toast_color_warning">#DAAE09</color>
     <color name="custom_toast_color_info">#2B43CC</color>
     <color name="custom_toast_color_neutral">#456258</color>
     <color name="custom_toast_color_icon_tint">#FFFFFF</color>
-    <color name="custom_toast_color_transparent">#00000000</color>
 
-    <dimen name="custom_toast_icon_size">50dp</dimen>
+    <dimen name="custom_toast_icon_size">@dimen/_40sdp</dimen>
 
     <style name="custom_toast_animation">
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>

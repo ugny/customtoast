@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 //        CustomToast.worksContinues(this);
 //        CustomToast.shortMakeText(this, "Denememesajısdfjlsdjfgnncnbcnhcmbyjxhjyjxyxyjyjyjyjcyjyjxjxfgjyjfjyjcyjfgjhcyjycjsdnlflssndl...");
 //        CustomToast.makeText(this, "Deneme mesajı sdfjlsd jfgnncnbcnhc mbyjxhjyjxyx yjyjyjy jcyjyj xjxfgjyjfjy jcyjfgjh cyjycjsdnl flssndl.",
-//                CustomToast.LENGTH_LONG, CustomToast.IC_MOOD, CustomToast.COLOR_SUCCESS);
+//                CustomToast.LENGTH_LONG, CustomToast.IC_MOOD, CustomToast.COLOR_NEUTRAL);
     }
+
 }
